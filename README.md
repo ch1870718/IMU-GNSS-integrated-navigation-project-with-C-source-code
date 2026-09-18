@@ -53,7 +53,7 @@ python -m pip install numpy matplotlib
 ## 2. 项目文件结构
 
 ```text
-导航综合实习/
+松组合代码/
 ├─ 源码/
 │  ├─ main.cpp
 │  ├─ struct.h
@@ -70,9 +70,6 @@ python -m pip install numpy matplotlib
 │  └─ udp_packets.h
 ├─ 可执行程序/
 │  ├─ solver_menu.exe
-│  ├─ imu.txt
-│  ├─ gnss_20260602_100202_517487.pos
-│  ├─ LCI_20260602_100202_517487.pos
 │  ├─ plot_horizontal_track.py
 │  ├─ plot_state_components.py
 │  ├─ plot_ned_error.py
@@ -81,7 +78,10 @@ python -m pip install numpy matplotlib
 ├─ .gitignore
 └─ README.md
 ```
-
+tag/release
+│  ├─ imu.txt
+│  ├─ gnss_20260602_100202_517487.pos
+│  ├─ LCI_20260602_100202_517487.pos
 ### 2.1 总体结构
 
 项目采用“统一菜单式主程序 + 分模块头文件”的结构，主要分为以下几层：
